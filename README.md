@@ -22,3 +22,15 @@ G-Films is a React-based web application that allows users to discover and watch
 
    ```bash
    git clone https://github.com/GehanFonseka/G-FILMS-Frontend
+   npm install
+   npm start
+The app will open in your browser at http://localhost:3000.
+
+## Contributing
+
+We welcome contributions to this project! If you'd like to improve the project or suggest new features, feel free to follow these steps:
+
+1. **Fork the repository**: Click the "Fork" button on the top right of the repository to create your copy.
+   
+2. **Clone your fork**: Clone your fork to your local machine using:
+
