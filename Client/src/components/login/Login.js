@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { loginUser } from "../../api/authApi";
+import { Link } from "react-router-dom";
 import "./Login.css";
+
 
 const Login = ({ setAuthToken }) => {
   const [username, setUsername] = useState("");
@@ -30,8 +32,12 @@ const Login = ({ setAuthToken }) => {
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} required />
         <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required />
-        <button type="submit">Login</button>
+        <button type="submit">Login</button><br></br><br></br>
+        <p className="register-link">
+    Don't have an account? <Link to="/Register">Register</Link>
+  </p>
       </form>
+    
     </div>
   );
 };

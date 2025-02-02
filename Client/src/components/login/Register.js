@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { registerUser } from "../../api/authApi";
+import { Link } from "react-router-dom";
 
 const Register = () => {
   const [username, setUsername] = useState("");
@@ -31,7 +32,10 @@ const Register = () => {
       <form onSubmit={handleSubmit}>
         <input type="text" placeholder="Username" value={username} onChange={(e) => setUsername(e.target.value)} required />
         <input type="password" placeholder="Password" value={password} onChange={(e) => setPassword(e.target.value)} required />
-        <button type="submit">Register</button>
+        <button type="submit">Register</button><br></br><br></br>
+        <p className="auth-link">
+      Already have an account? <Link to="/login">Login</Link>
+    </p>
       </form>
     </div>
   );
