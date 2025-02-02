@@ -1,0 +1,51 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Build output
+/build
+/dist
+
+# React Native
+.expo
+.expo-shared
+
+# VS Code settings
+.vscode/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# dotenv environment variables
+.env
+.env.*.local
+
+# Logs
+logs
+*.log
+
+# JetBrains IDEs
+.idea/
+
+# Temporary files
+*.swp
+*.swo
+
+# Test coverage
+coverage/
+
+# Next.js build output
+.next/
+
+# React Native packager
+packager-info.json
+
+# Storybook
+storybook-static/
+
+# MacOS Finder
+**/.DS_Store
