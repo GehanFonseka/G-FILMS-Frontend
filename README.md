@@ -20,20 +20,26 @@ G-Films is a React-based web application that allows users to discover and watch
 
 To get started with the project locally, follow these steps:
 
-1. Clone the repository:
+### 1. Clone the repository:
 
    ```bash
    git clone https://github.com/GehanFonseka/G-FILMS-Frontend.git
    ```
    
+### 2. Navigate into the project folder
+   
    ```bash
    cd G-FILMS-Frontend
    ```
-   
+
+### 3. Install dependencies:
+
    ```bash
    npm install
    ```
-   
+
+### 2. Navigate into the project folder
+
    ```bash
    npm start
    ```
