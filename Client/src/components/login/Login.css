@@ -1,0 +1,145 @@
+/* Overall Container Styling */
+.auth-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    perspective: 1000px;
+}
+
+/* Form Styling */
+.auth-container form {
+    background: rgba(255, 255, 255, 0.15);
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+    backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Heading Styling */
+.auth-container h2 {
+    font-size: 2.2rem;
+    margin-bottom: 18px;
+    font-weight: 600;
+    color: #f1f1f1;
+}
+
+/* Input Styling */
+.auth-container input {
+    width: 100%;
+    padding: 14px;
+    margin: 12px 0;
+    border: none;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.2);
+    color: white;
+    font-size: 16px;
+    outline: none;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+.auth-container input::placeholder {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.auth-container input:focus {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Button Styling */
+.auth-container button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background: #00c6ff;
+    background: linear-gradient(45deg, #0072ff, #00c6ff);
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.3s ease;
+}
+
+.auth-container button:hover {
+    background: linear-gradient(45deg, #0052cc, #008cff);
+    transform: scale(1.05);
+}
+
+/* Remember Me & Forgot Password */
+.auth-options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.auth-options label {
+    display: flex;
+    align-items: center;
+    color: #d1d1d1;
+}
+
+.auth-options input[type="checkbox"] {
+    margin-right: 8px;
+    accent-color: #00c6ff;
+}
+
+.auth-options a {
+    color: #00c6ff;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.auth-options a:hover {
+    color: #008cff;
+}
+
+/* Error Message Styling */
+.error-message {
+    color: #ff4d4d;
+    font-size: 14px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+/* Signup Link */
+.signup-link {
+    margin-top: 15px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.signup-link a {
+    color: #00c6ff;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.signup-link a:hover {
+    color: #008cff;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .auth-container form {
+        padding: 20px;
+        width: 90%;
+    }
+
+    .auth-container h2 {
+        font-size: 2rem;
+    }
+}
