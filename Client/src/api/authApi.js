@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const API_URL = "http://localhost:9191/api/v1/auth";
+const API_URL = "https://g-films.onrender.com/api/v1/auth";
 
 // Register API Call
 export const registerUser = async (userData) => {

@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-    baseURL: "http://localhost:9191",
+    baseURL: "https://g-films.onrender.com",
     headers: {
         "Content-Type": "application/json"
     }
