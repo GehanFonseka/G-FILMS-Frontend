@@ -2,6 +2,11 @@
 
 G-Films is a React-based web application that allows users to discover and watch movie trailers, leave reviews, and add their favorite movies to a wishlist for later viewing. It provides an engaging platform for exploring movies, staying updated with the latest trailers, and sharing thoughts with other users.
 
+## Live Demo  
+
+🚀 Check out the live version of G-Films here:  
+🔗 [G-Films Live](https://g-films.vercel.app/)  
+
 ## Features
 
 - **Watch Movie Trailers**: Browse and watch trailers from a variety of movies across different genres.
